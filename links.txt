@@ -1,0 +1,10 @@
+
+Eloquent Javascript (Course Textbook) - http://eloquentjavascript.net/
+Eloquent Javascript Code Samples - https://eloquentjavascript.net/code/
+JavaScript Design Patterns https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+Mozilla Developer Network https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+Why Learn Vanilla JS	https://snipcart.com/blog/learn-vanilla-javascript-before-using-js-frameworks
+JSFiddle http://jsfiddle.net
+We might not need jQuery https://css-tricks.com/now-ever-might-not-need-jquery/
+Visual Studio Code https://code.visualstudio.com/
+Stackblitz  https://stackblitz.com
