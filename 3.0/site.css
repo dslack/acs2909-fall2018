@@ -1,0 +1,88 @@
+html {
+    background-color:lightgrey; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h3{
+    font-variant: small-caps;
+}
+
+ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+ul.course-details {
+    width:900px;
+}
+
+li {
+    /* margin-top: 5px; */
+}
+
+label {
+    font-weight: bold;
+    width:25%;
+    display:inline-block;
+    text-align: right;
+    padding: 10px;
+    margin-right:10px; 
+}
+
+a {
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: blue;
+}
+
+/* a:hover {
+    color: lightgray;
+    background-color: white;
+    border: 1px solid darkgray;
+    padding: 5px;
+    font-family: comic-sans;
+} */
+
+nav {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: #fff;
+}
+nav>ul {
+    display:flex;
+    flex-direction: row;
+}
+nav>ul>li {
+    flex:1;
+    padding: 5px;
+    background-color: #ccc;
+    color: #000;
+    border: 1px solid #444;
+}
+nav>ul>li.active {
+    background-color:aliceblue;
+}
+
+#links{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+} 
+
+#links li{
+    width: 275;
+    padding: 7px;
+    border:1px solid #777;
+    margin:5px;
+    background-color: #fff;
+}
+
+section {
+    margin-top: 140px;
+}
