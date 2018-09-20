@@ -5,7 +5,7 @@ const TABS = [
     },
     {
         link: "lectures.html",
-        label:" Lectures and Samples"
+        label:" Lectures, Samples and Assignments"
     },
     {
         link: "links.html",
