@@ -10,6 +10,6 @@ window.onload = function(){
 
     if (ACTIVE_TAB === 'links.html') {
         const links = document.getElementById('links');
-        LINKS.forEach((linkObj) => links.appendChild(Utilities.createListLink(linkObj)));
+        LINKS.forEach((linkObj) => links.appendChild(Utilities.createListLink(linkObj, true)));
     }
 }

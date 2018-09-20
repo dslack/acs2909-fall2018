@@ -22,12 +22,15 @@ const Utilities = {
             tab.classList.add('active');
         }
     } ,
-    createListLink: function(tabObj) {
+    createListLink: function(tabObj, openInNewWindow = false) {
         let {link, label} = tabObj;
         let item = document.createElement('li');
         let anchorText = document.createTextNode(label);
         let anchor = document.createElement('a');
         anchor.href=link;
+        if (openInNewWindow){
+            anchor.target = '_blank';
+        }
         anchor.appendChild(anchorText);
         item.appendChild(anchor);
     
