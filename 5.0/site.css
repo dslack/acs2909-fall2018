@@ -102,9 +102,7 @@ section {
     margin-top: 140px;
 }
 
-.samples::before {
-    content: '📚'
-}
+
 .samples {
     padding: 5px;
     margin-left: 10px;
@@ -135,4 +133,23 @@ section {
 #assignmentsContainer .details dl dt {
     font-weight: bold;
     text-decoration: underline;
+}
+
+.hidden {
+    display:none;
+}
+
+.lectureItem {
+    position:relative;
+}
+
+.lectureDetails {
+    border:1px solid #666;
+    padding: 5px;
+    margin:5px;
+    position:absolute;
+    top:20px;
+    left: 10px;
+    background-color:#FFFFFF;
+    z-index:5;
 }
