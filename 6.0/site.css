@@ -1,0 +1,155 @@
+html {
+    background-color:lightgrey; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h3{
+    font-variant: small-caps;
+}
+
+ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+
+ul.course-details {
+    width:900px;
+}
+
+li {
+    /* margin-top: 5px; */
+}
+
+label {
+    font-weight: bold;
+    width:25%;
+    display:inline-block;
+    text-align: right;
+    padding: 10px;
+    margin-right:10px; 
+}
+
+a {
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: blue;
+}
+
+/* a:hover {
+    color: lightgray;
+    background-color: white;
+    border: 1px solid darkgray;
+    padding: 5px;
+    font-family: comic-sans;
+} */
+
+nav {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: #fff;
+}
+nav>ul {
+    display:flex;
+    flex-direction: row;
+    box-shadow: 1px 3px 3px -2px #333;
+}
+nav>ul>li {
+    flex:1;
+    padding: 0;
+
+    color: #000;
+    border: 1px solid #999;
+}
+
+nav>ul>li>a {
+    background-color: #f5f5f5;    
+    display:inline-block;
+    padding: 5px;
+    width:100%;
+}
+nav>ul>li>a:hover {
+    background-color:#d1cece
+}
+nav>ul>li.active>a {
+    background-color:#f0f8ff;
+}
+nav>ul>li.active>a:hover {
+    background-color:#d5dbe7
+}
+
+#links{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+} 
+
+#links li{
+    width: 275;
+    padding: 7px;
+    border:1px solid #777;
+    margin:5px;
+    background-color: #fff;
+}
+
+section {
+    margin-top: 140px;
+}
+
+
+.samples {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#lecturesContainer {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-start
+}
+
+#lecturesContainer>article{
+    flex: 1;
+    align-self: stretch;
+    background-color: #FFF;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px 0px #999;    
+}
+
+#assignmentsContainer .details dl {
+    margin-left:30px;
+    margin-top:5px;
+    font-size: .8em;
+}
+
+#assignmentsContainer .details dl dt {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.hidden {
+    display:none;
+}
+
+.lectureItem {
+    position:relative;
+}
+
+.lectureDetails {
+    border:1px solid #666;
+    padding: 5px;
+    margin:5px;
+    position:absolute;
+    top:20px;
+    left: 10px;
+    background-color:#FFFFFF;
+    z-index:5;
+}
