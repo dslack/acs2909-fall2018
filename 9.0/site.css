@@ -1,5 +1,5 @@
 html {
-    background-color:lightgrey; 
+    background-color:#f9f9f9; 
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
@@ -152,4 +152,8 @@ section {
     left: 10px;
     background-color:#FFFFFF;
     z-index:5;
+}
+
+.viewMoreDetails {
+    padding-left:10px;
 }
